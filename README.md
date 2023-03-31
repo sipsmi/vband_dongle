@@ -2,9 +2,9 @@
 
 This uses an arduino device as a keyboard emulator.  Owing to the types of USB interfaces 
 only the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family) will work 
-as a native Mouse and/or Keyboard to a connected compute
+as a native Mouse and/or Keyboard to a connected computer.
 
-Connect a lead to you paddle with the following:
+Connect a lead to your paddle with the following:
 
 ```
 Paddle        Arduino
