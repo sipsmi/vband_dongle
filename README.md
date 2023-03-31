@@ -14,5 +14,5 @@ Dit           Pin 2
 Dah           Pin 3
 ```
 
-Not the pins can be configured in the code.
+Note the pins can be configured in the code.
 It the DIT and DAH are the wrong way around - change the connection or change the code.
