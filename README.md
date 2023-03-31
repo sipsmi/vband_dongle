@@ -5,7 +5,7 @@ only the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family
 as a native Mouse and/or Keyboard to a connected computer.
 
 ## Step 1
-Compiled code in Arduino IDE and upload to your arduino
+Compile the code in Arduino IDE and upload to your arduino
 
 ## Step 2
 
