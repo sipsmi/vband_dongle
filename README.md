@@ -25,3 +25,5 @@ Then connect the arduino device to your computer USB port.  Most computers will 
 ## Notes
 Note the pins can be configured in the code.
 It the DIT and DAH are the wrong way around - change the connection or change the code.
+
+![alt text](https://github.com/sipsmi/vband_dongle/blob/main/vband.jpg?raw=true)
