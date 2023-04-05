@@ -9,6 +9,7 @@ Compile the code in Arduino IDE and upload to your arduino
 
 *note*:  The code must sit in the same named folder ( change the folder name after download
 or move to sketchbook in a new folder.
+(version 2+ of Arduino does not seem to care so much )
 
 *note2* you may need to download library Tools->Manage Libraries...
 then search and add "Keyboard.h" ( HID required too but may be included anyway ).
