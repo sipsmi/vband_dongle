@@ -6,6 +6,10 @@ as a native Mouse and/or Keyboard to a connected computer.
 
 ## Step 1
 Compile the code in Arduino IDE and upload to your arduino
+*note*:  The code must sit in the same named folder ( change the folder name after download
+or move to sketchbook in a new folder.
+*note2* you may need to download library Tools->Manage Libraries...
+then search and add "Keyboard.h" ( HID required too but may be included anyway ).
 
 ## Step 2
 
