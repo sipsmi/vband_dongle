@@ -22,7 +22,7 @@ void setup() {
 void loop() { action_paddle();  } 
 
 // actually do the work
-void action _paddle(){
+void action_paddle(){
   while (digitalRead(DIH_PIN) == HIGH && 
 	 digitalRead(DAH_PIN) == HIGH){ Keyboard.releaseAll();   }
   if ( digitalRead(DIH_PIN) == LOW){
