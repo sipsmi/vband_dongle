@@ -13,6 +13,9 @@ or move to sketchbook in a new folder.
 *note2* you may need to download library Tools->Manage Libraries...
 then search and add "Keyboard.h" ( HID required too but may be included anyway ).
 
+*note3* Make sure you set the board to a 32u4 or SAMD based board otherwise the compile will 
+fail since the Keyboard object will not be defined ( not supported by the board).
+
 ## Step 2
 
 Connect a lead to your paddle with the following:
