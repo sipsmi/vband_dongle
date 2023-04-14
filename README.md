@@ -30,6 +30,7 @@ Ground        Ground Pin
 Dit           Pin 2
 Dah           Pin 3
 ```
+I use PIN 2,3 here as they are next to ground PIN on some boards so makes for easy wiring.
 
 ## Step 3
 Then connect the arduino device to your computer USB port.  Most computers will recognise it as a HID/Keyboard device.
