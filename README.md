@@ -4,6 +4,8 @@ This uses an arduino device as a keyboard emulator.  Owing to the types of USB i
 only the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family) will work 
 as a native Mouse and/or Keyboard to a connected computer.
 
+This is reported to work well on Vail as well as VBand
+
 ## Step 1
 Compile the code in Arduino IDE and upload to your arduino
 
