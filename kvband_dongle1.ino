@@ -1,3 +1,4 @@
+0] 
 #include <HID.h>
 #include <Keyboard.h>
 #include <KeyboardLayout.h>
@@ -37,6 +38,6 @@ void action_paddle(){
   if ( digitalRead(DAH_PIN) == LOW){ Keyboard.press(dahKey); }
   else{ Keyboard.release(dahKey);  }
   // short delay to stop overloading VBand
-  delay(5);
+  //delay(0);
 }
 // END  //////////////////////////////////////////////////////
