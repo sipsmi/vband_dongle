@@ -19,6 +19,10 @@ then search and add "Keyboard.h" ( HID required too but may be included anyway )
 *note3* Make sure you set the board to a 32u4 or SAMD based board otherwise the compile will 
 fail since the Keyboard object will not be defined ( not supported by the board).
 
+*note4* Make sure you also set the board to 3V/5V 8MHZ/16MHz as required.  I managed to brick
+my Arduino Pro Micro by having the wrong type.  I did however managed to resurrect the device
+by re-installing the bootloader using a Nano as ISP.  See here for hwo to do this: https://www.instructables.com/Burn-Bootloader-Arduino-Nano-As-ISP-to-Pro-Micro/
+
 ## Step 2
 
 Connect a lead to your paddle with the following:
