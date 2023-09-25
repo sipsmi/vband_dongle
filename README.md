@@ -20,8 +20,10 @@ then search and add "Keyboard.h" ( HID required too but may be included anyway )
 fail since the Keyboard object will not be defined ( not supported by the board).
 
 *note4* Make sure you also set the board to 3V/5V 8MHZ/16MHz as required.  I managed to brick
-my Arduino Pro Micro by having the wrong type.  I did however managed to resurrect the device
-by re-installing the bootloader using a Nano as ISP.  See here for hwo to do this: https://www.instructables.com/Burn-Bootloader-Arduino-Nano-As-ISP-to-Pro-Micro/
+my Arduino Pro Micro by having the wrong type.  I did however manage to resurrect the device
+by re-installing the bootloader using a Nano as ISP.  See here for how to do this: https://www.instructables.com/Burn-Bootloader-Arduino-Nano-As-ISP-to-Pro-Micro/ Note that there 
+is an easier way to do this by hitting reset twice quickly ( need to use shorting wire on mini as no reset button ) and you have 8 seconds to load your software correctly.  As my Arduino does not 
+do this fast enough ( compile/upload ) I ended up selecting upload and waiting to double-reset just before the IDE started the upload ( takes a bit of timing ).
 
 ## Step 2
 
