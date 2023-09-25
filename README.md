@@ -44,3 +44,7 @@ Note the pins can be configured in the code.
 It the DIT and DAH are the wrong way around - change the connection or change the code.
 
 ![alt text](https://github.com/sipsmi/vband_dongle/blob/main/vband.jpg?raw=true)
+
+The new Version I take portable with laptop and mini-key....   The glue is just used to take strain on connectors.
+
+![alt text](https://github.com/sipsmi/vband_dongle/blob/main/interface%202.png?raw=true)
