@@ -1,4 +1,3 @@
-0] 
 #include <HID.h>
 #include <Keyboard.h>
 #include <KeyboardLayout.h>
